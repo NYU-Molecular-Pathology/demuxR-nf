@@ -131,7 +131,7 @@ pull: remote
 	@git pull
 
 # update the repo remote for ssh
-ORIGIN:=git@github.com:varshini712/muxprep-nf.git
+ORIGIN:=git@github.com:NYU-Molecular-Pathology/demuxR-nf.git
 remote:
 	@echo ">>> Setting git remote origin to $(ORIGIN)"
 	@git remote set-url origin $(ORIGIN)
