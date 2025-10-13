@@ -158,7 +158,7 @@ fix-permissions:
 	@find . -type d -exec chmod ug+rwxs {} \;
 	@find . -type f -exec chmod ug+rw {} \;
 
-USERGROUP:=molecpathlab
+USERGROUP:=snudem01lab
 fix-group:
 	@find . ! -group "$(USERGROUP)" -exec chgrp "$(USERGROUP)" {} \;
 
